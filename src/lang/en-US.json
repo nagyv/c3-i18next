@@ -1,0 +1,60 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for c3-i18next Plugin",
+  "text": {
+    "plugins": {
+      "fontanus_i18next": {
+        "name": "c3-i18next",
+        "description": "A translation plugin for Construct 3 built on top of i18next.",
+        "help-url": "https://github.com/nagyv/c3-i18next",
+        "properties": {
+        },
+        "aceCategories": {
+          "internationalization": "Internationalization"
+        },
+        "conditions": {
+          "initialized": {
+            "list-name": "Triggered when i18next is ready",
+            "display-text": "i18next is ready",
+            "description": "Triggered when i18next is ready",
+            "params": {}
+          }
+        },
+        "actions": {
+          "init": {
+            "list-name": "Initialize translation services",
+            "display-text": "Initialize i18next with language {0} and values {1}",
+            "description": "Initialize translation services",
+            "params": {
+              "languageCode": {
+                "name": "Language code",
+                "desc": "Language code"
+              },
+              "translations": {
+                "name": "Translation dict",
+                "desc": "Translation dict encoded to string"
+              }
+            }
+          }
+        },
+        "expressions": {
+          "t": {
+            "list-name": "Translate text",
+            "display-text": "Translate text {0} with options {1}",
+            "description": "Translate text",
+            "params": {
+              "key": {
+                "name": "Translation key",
+                "desc": "Translation key"
+              },
+              "interpolation": {
+                "name": "Interpolation options",
+                "desc": "Interpolation options dict as string (optional)"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

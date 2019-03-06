@@ -1,0 +1,46 @@
+{
+  "internationalization": {
+    "conditions": [
+      {
+        "id": "initialized",
+        "scriptName": "initialized",
+				"isTrigger": "true",
+        "highlight": false
+      }
+    ],
+    "actions": [
+      {
+        "id": "init",
+        "scriptName": "Init",
+        "highlight": true,
+        "params": [
+          {
+            "id": "languageCode",
+            "type": "string"
+          },
+          {
+            "id": "translations",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "id": "t",
+        "expressionName": "t",
+        "params": [
+          {
+            "id": "key",
+            "type": "string"
+          },
+          {
+            "id": "interpolation",
+            "type": "string"
+          }
+        ],
+        "returnType": "string"
+      }
+    ]
+  }
+}

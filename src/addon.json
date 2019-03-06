@@ -1,0 +1,32 @@
+{
+  "is-c3-addon": true,
+  "type": "plugin",
+  "name": "i18next",
+  "id": "Fontanus_I18Next",
+  "version": "0.1.0.0",
+  "author": "Viktor Nagy",
+  "website": "https://github.com/nagyv/c3-i18next",
+  "documentation": "https://github.com/nagyv/c3-i18next",
+  "description": "A translation plugin for Construct 3 built on top of i18next.",
+  "editor-scripts": [
+    "plugin.js",
+    "type.js",
+    "instance.js"
+  ],
+  "file-list": [
+    "i18next.min.js",
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "c3runtime/instance.js",
+    "c3runtime/conditions.js",
+    "c3runtime/actions.js",
+    "c3runtime/expressions.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "instance.js",
+    "plugin.js",
+    "type.js"
+  ]
+}
