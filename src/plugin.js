@@ -25,27 +25,11 @@
 
             this._info.AddFileDependency(
             {
-                filename: "c3runtime/gamesparks.js",
-                type: "inline-script"
+                filename: "i18next.min.js",
+                type: "external-script"
             });
-            this._info.AddFileDependency(
-            {
-                filename: "c3runtime/gamesparks-functions.js",
-                type: "inline-script"
-            });
-            this._info.AddFileDependency(
-            {
-                filename: "c3runtime/hmac-sha256.js",
-                type: "inline-script"
-            });
-
+            
             SDK.Lang.PushContext(".properties");
-
-            this._info.SetProperties([
-                new SDK.PluginProperty("text", "apiKey", "value"),
-                new SDK.PluginProperty("text", "apiSecret", "value")
-
-            ]);
 
             SDK.Lang.PopContext(); //.properties
             SDK.Lang.PopContext();

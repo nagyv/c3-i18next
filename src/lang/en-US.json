@@ -35,13 +35,23 @@
                 "desc": "Translation dict encoded to string"
               }
             }
+          },
+          "changeLanguage": {
+            "list-name": "Change language",
+            "display-text": "Change the translation language to {0}",
+            "description": "Change language",
+            "params": {
+              "languageCode": {
+                "name": "Language code",
+                "desc": "Language code"
+              }
+            }
           }
         },
         "expressions": {
           "t": {
-            "list-name": "Translate text",
-            "display-text": "Translate text {0} with options {1}",
-            "description": "Translate text",
+            "translated-name": "Translate",
+            "description": "Translate the given text by key with optional interpolation values",
             "params": {
               "key": {
                 "name": "Translation key",
