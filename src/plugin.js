@@ -2,7 +2,7 @@
 {
 
     const PLUGIN_ID = "Fontanus_I18Next";
-    const PLUGIN_VERSION = "0.1.1.1";
+    const PLUGIN_VERSION = "0.1.1.0";
     const PLUGIN_CATEGORY = "general";
 
     const PLUGIN_CLASS = SDK.Plugins.Fontanus_I18Next = class C3I18NextPlugin extends SDK.IPluginBase
@@ -17,7 +17,7 @@
             this._info.SetDescription(lang(".description"));
             this._info.SetVersion(PLUGIN_VERSION);
             this._info.SetCategory(PLUGIN_CATEGORY);
-            this._info.SetAuthor("Mikal");
+            this._info.SetAuthor("Viktor Nagy");
             this._info.SetHelpUrl(lang(".help-url"));
             this._info.SetIsSingleGlobal(true);
 

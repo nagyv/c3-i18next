@@ -4,7 +4,7 @@
   "text": {
     "plugins": {
       "fontanus_i18next": {
-        "name": "c3-i18next",
+        "name": "i18next",
         "description": "A translation plugin for Construct 3 built on top of i18next.",
         "help-url": "https://github.com/nagyv/c3-i18next",
         "properties": {
@@ -18,6 +18,11 @@
             "display-text": "i18next is ready",
             "description": "Triggered when i18next is ready",
             "params": {}
+          },
+          "isInitialized": {
+            "list-name": "Is i18next initialized",
+            "display-text": "Is i18next initialized",
+            "description": "Is i18next initialized"
           }
         },
         "actions": {

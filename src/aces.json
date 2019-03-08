@@ -6,6 +6,10 @@
         "scriptName": "initialized",
 				"isTrigger": "true",
         "highlight": false
+      },
+      {
+        "id": "isInitialized",
+        "scriptName": "isInitialized"
       }
     ],
     "actions": [

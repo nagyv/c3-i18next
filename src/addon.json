@@ -3,7 +3,7 @@
   "type": "plugin",
   "name": "i18next",
   "id": "Fontanus_I18Next",
-  "version": "0.1.0.0",
+  "version": "0.1.1.0",
   "author": "Viktor Nagy",
   "website": "https://github.com/nagyv/c3-i18next",
   "documentation": "https://github.com/nagyv/c3-i18next",
